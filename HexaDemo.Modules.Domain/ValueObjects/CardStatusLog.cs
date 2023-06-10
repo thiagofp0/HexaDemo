@@ -1,5 +1,5 @@
-﻿using HexaDemo.Modules.Domain.Base.Enums;
-using HexaDemo.Modules.Domain.Entities;
+﻿using HexaDemo.Modules.Domain.Entities;
+using HexaDemo.Modules.Domain.ValueObjects;
 
 namespace HexaDemo.Modules.Domain.ValueObjects;
 

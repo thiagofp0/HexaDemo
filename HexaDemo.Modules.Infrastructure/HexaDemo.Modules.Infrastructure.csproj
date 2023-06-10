@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="SQlite" />
+      <ProjectReference Include="..\HexaDemo.Modules.Domain\HexaDemo.Modules.Domain.csproj" />
     </ItemGroup>
 
 </Project>

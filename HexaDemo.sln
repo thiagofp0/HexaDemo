@@ -8,13 +8,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4CAD3C0B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaDemo.API", "HexaDemo.API\HexaDemo.API.csproj", "{8AAC3BA5-10E2-4488-B790-58E25602ED6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaDemo.Modules.Application", "HexaDemo.Modules.Application\HexaDemo.Modules.Application.csproj", "{A900BB36-5AB0-48A6-BB96-C2FE120AC72F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaDemo.Modules.Domain", "HexaDemo.Modules.Domain\HexaDemo.Modules.Domain.csproj", "{AA843E3C-808F-4BC6-86BD-A26217E1BA36}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaDemo.Modules.Infrastructure", "HexaDemo.Modules.Infrastructure\HexaDemo.Modules.Infrastructure.csproj", "{A70101A6-0D15-433A-8D93-3720A04CF5B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaDemo.Tests", "HexaDemo.Tests\HexaDemo.Tests.csproj", "{BD0A7DA5-0B99-42E2-8313-B771C7552D1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaDemo.Modules.Domain.Tests", "HexaDemo.Modules.Domain.Tests\HexaDemo.Modules.Domain.Tests.csproj", "{070E1B5E-F251-43D4-9712-47685CB308D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,20 +21,15 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8AAC3BA5-10E2-4488-B790-58E25602ED6F} = {727AE14F-8D4C-44FC-803A-5699B20CA2CC}
-		{A900BB36-5AB0-48A6-BB96-C2FE120AC72F} = {07536E95-8751-4830-979F-4EDB218F4648}
 		{AA843E3C-808F-4BC6-86BD-A26217E1BA36} = {07536E95-8751-4830-979F-4EDB218F4648}
 		{A70101A6-0D15-433A-8D93-3720A04CF5B1} = {07536E95-8751-4830-979F-4EDB218F4648}
-		{BD0A7DA5-0B99-42E2-8313-B771C7552D1B} = {4CAD3C0B-CB97-436F-B85F-2BBEF2712851}
+		{070E1B5E-F251-43D4-9712-47685CB308D6} = {4CAD3C0B-CB97-436F-B85F-2BBEF2712851}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8AAC3BA5-10E2-4488-B790-58E25602ED6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8AAC3BA5-10E2-4488-B790-58E25602ED6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AAC3BA5-10E2-4488-B790-58E25602ED6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AAC3BA5-10E2-4488-B790-58E25602ED6F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A900BB36-5AB0-48A6-BB96-C2FE120AC72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A900BB36-5AB0-48A6-BB96-C2FE120AC72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A900BB36-5AB0-48A6-BB96-C2FE120AC72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A900BB36-5AB0-48A6-BB96-C2FE120AC72F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AA843E3C-808F-4BC6-86BD-A26217E1BA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AA843E3C-808F-4BC6-86BD-A26217E1BA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA843E3C-808F-4BC6-86BD-A26217E1BA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,9 +38,9 @@ Global
 		{A70101A6-0D15-433A-8D93-3720A04CF5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A70101A6-0D15-433A-8D93-3720A04CF5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A70101A6-0D15-433A-8D93-3720A04CF5B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD0A7DA5-0B99-42E2-8313-B771C7552D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD0A7DA5-0B99-42E2-8313-B771C7552D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD0A7DA5-0B99-42E2-8313-B771C7552D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD0A7DA5-0B99-42E2-8313-B771C7552D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070E1B5E-F251-43D4-9712-47685CB308D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070E1B5E-F251-43D4-9712-47685CB308D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070E1B5E-F251-43D4-9712-47685CB308D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070E1B5E-F251-43D4-9712-47685CB308D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
